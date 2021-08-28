@@ -1,4 +1,5 @@
 // iterators5.rs
+
 // Let's define a simple model to track Rustlings exercise progress. Progress
 // will be modelled using a hash map. The name of the exercise is the key and
 // the progress is the value. Two counting functions were created to count the
@@ -6,7 +7,8 @@
 // imperative style for loops. Recreate this counting functionality using
 // iterators. Only the two iterator methods (count_iterator and
 // count_collection_iterator) need to be modified.
-// Execute `rustlings hint iterators5` for hints.
+// Execute `rustlings hint
+// iterators5` for hints.
 //
 // Make the code compile and the tests pass.
 
@@ -14,7 +16,7 @@
 
 use std::collections::HashMap;
 
-#[derive(Clone, Copy, PartialEq, Eq)]
+#[derive(PartialEq, Eq)]
 enum Progress {
     None,
     Some,
